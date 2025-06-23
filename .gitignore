@@ -1,0 +1,46 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Editor
+.vscode/ 
+# Dossiers de configuration VS Code (optionnel, si vous voulez les exclure)
+
+# Jupyter Notebook
+.ipynb_checkpoints/ 
+# >> Sauvegardes automatiques de notebooks
+*.ipynb_checkpoints 
+# >> Plus générique au cas où
+uv.lock             
+# >> Fichier de verrouillage de uv (peut être gitignoré ou versionné selon la préférence)
+.uv/                
+# >> Cache de uv
+temp_data/          
+# >> Exemple: un dossier pour des fichiers temporaires
+
+# Spacy
+*.spacy             
+# >> Fichiers de modèles Spacy (si vous les téléchargez localement)
+
+# Databases
+*.sqlite            
+# >> Fichiers SQLite (si base de données locale)
+*.db                
+# >> Fichiers .db génériques
+rawdata/            
+# >> Le dossier 'rawdata' où se trouve ta base de données (si tu ne veux pas la versionner)
+
+# OS generated files
+.DS_Store           
+# >> macOS
+.Trash              
+# >> macOS
+Thumbs.db           
+# >> Windows
